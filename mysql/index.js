@@ -3,6 +3,7 @@ let mysql= require("mysql");
 let createConnection=()=>{
     let connection=mysql.createConnection({
            host:"140.143.201.230",
+        //    host:"localhost",
            user:"root",
            password:"root",
            database:"computed"
